@@ -1,0 +1,12 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Damian Bemben
+	email = bembendamian@yahoo.co.uk
+[core]
+	editor = \"C:\\Users\\bembe\\AppData\\Local\\atom\\app-1.46.0\\atom.exe\" --wait
+[gui]
+	recentrepo = C:/Users/bembe/source/repos/ClimateMonitorV2
